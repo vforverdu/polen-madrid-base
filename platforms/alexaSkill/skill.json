@@ -1,0 +1,50 @@
+{
+	"manifest": {
+		"publishingInformation": {
+			"locales": {
+				"es-ES": {
+					"summary": "Comprueba los niveles recientes de polen en la Comunidad de Madrid y no sufras más por la alergia!",
+					"examplePhrases": [
+						"Alexa abre Polen Madrid",
+						"Alexa lanza Polen Madrid",
+						"Alexa inicia Polen Madrid"
+					],
+					"keywords": [
+						"hello",
+						"world"
+					],
+					"name": "Polen Madrid",
+					"description": "Si tienes alergias estacionarias esta es tu skill! Nuestros datos se actualizan periódicamente para mantenerte siempre al tanto de los niveles de polen que hay en la Comunidad de Madrid.",
+					"smallIconUri": "https://via.placeholder.com/108/09f/09f.png",
+					"largeIconUri": "https://via.placeholder.com/512/09f/09f.png"
+				}
+			},
+			"isAvailableWorldwide": true,
+			"testingInstructions": "Abrir la skill diciendo 'Alexa, abre Polen Madrid'",
+			"category": "EDUCATION_AND_REFERENCE",
+			"distributionCountries": []
+		},
+		"apis": {
+			"custom": {
+				"endpoint": {
+					"sslCertificateType": "Wildcard",
+					"uri": "https://webhook.jovo.cloud/59c4b042-40a7-4c9d-9e4a-bce85aab375a"
+				}
+			}
+		},
+		"manifestVersion": "1.0",
+		"privacyAndCompliance": {
+			"allowsPurchases": false,
+			"locales": {
+				"es-ES": {
+					"privacyPolicyUrl": "https://vforverdu.github.io/skills-privacy-policy/",
+					"termsOfUseUrl": "https://vforverdu.github.io/skills-terms-of-use/"
+				}
+			},
+			"isExportCompliant": true,
+			"containsAds": false,
+			"isChildDirected": false,
+			"usesPersonalInfo": false
+		}
+	}
+}
